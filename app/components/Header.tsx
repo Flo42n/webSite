@@ -22,7 +22,7 @@ export const Header = () => {
         className="hover:cursor-pointer hover:scale-110 duration-500 ease-in-out"
         onClick={() => redirect("our_team")}
       >
-        Our teem
+        Our team
       </p>
     </header>
   );
