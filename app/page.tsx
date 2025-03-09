@@ -117,10 +117,10 @@ export default function Home() {
         </div>
 
         <hr className="border border-black w-3/5" />
-        <div className="flex flex-col gap-8 px-52 ">
+        <div className="flex flex-col gap-6 px-52 ">
           <p className="text-2xl ">Made by five talented conceptors</p>
           <p className="text-4xl text-blue-900 font-extrabold tracking-wide">
-            Meet our team !
+            Meet our teem !
           </p>
           <p className="text-lg">
             JoyNest Studios, founded in 2022 by a group of recent graduates, has

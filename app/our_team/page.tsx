@@ -4,8 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import { Card, CardContent } from "../components/Card"; 
-import { FaLinkedin } from "react-icons/fa";
+import { Card, CardContent } from "../components/Card";
 
 const teamMembers = [
   {
@@ -64,21 +63,30 @@ export default function OurTeam() {
       </div>
       <section className="max-w-6xl mx-auto p-8">
         <hr className="border border-black w-3/5 mx-auto my-7" />
-        <h2 className="text-4xl font-bold text-gray-900">About the team</h2>
-        <p className="text-black-600 mt-2 mb-6">
-          We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.
+        <br></br>
+        <h2 className="text-4xl font-bold text-gray-900 font-mono">
+          About the team
+        </h2>
+        <p className="text-black mt-2 mb-6 font-mono">
+          We’re a dynamic group of individuals who are passionate about what we
+          do and dedicated to delivering the best results for our clients.
         </p>
-        <div className="grid md:grid-cols-2 gap-6">
+        <br />
+        <div className="grid md:grid-cols-2 gap-6 ">
           {teamMembers.map((member, index) => (
             <Card key={index} className="flex items-center p-4 gap-4 shadow-md">
-              <img src={member.image} alt={member.name} className="w-40 h-40 rounded-lg object-cover" />
+              <img
+                src={member.image}
+                alt={member.name}
+                className="w-40 h-40 rounded-lg object-cover"
+              />
               <CardContent>
-                <h3 className="text-lg font-semibold text-gray-900">{member.name}</h3>
-                <p className="text-sm text-black-1000">{member.role}</p>
-                <p className="text-sm text-black-600 mt-2">{member.description}</p>
-                <div className="mt-3 flex items-center gap-2">
-                  <FaLinkedin className="text-gray-600" size={18} />
-                </div>
+                <h3 className="text-lg font-semibold text-gray-900">
+                  {member.name}
+                </h3>
+                <p className="text-sm text-black">{member.role}</p>
+                <p className="text-sm text-black mt-2">{member.description}</p>
+                <div className="mt-3 flex items-center gap-2"></div>
               </CardContent>
             </Card>
           ))}
