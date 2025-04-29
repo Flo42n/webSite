@@ -27,7 +27,7 @@ export default function AboutTheGame() {
       <hr className="border border-black w-3/5 mx-auto my-7" />
 
       <div className="flex flex-col font-mono gap-5 px-58 text-black">
-        <h2 className="text-2xl font-semibold">The Story Behind the Game</h2>
+        <h2 className="text-2xl font-semibold">The Game</h2>
         <p className="text-black mt-2">
           ”Back to EPITA” is an innovative game that aims to offer an immersive
           and collaborative experience. This idea emerged after a long period of
