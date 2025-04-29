@@ -13,10 +13,11 @@ export const Button = ({
 }) => {
   return (
     <button
-      className={cn(
-        "flex flex-row justify-center transition hover:scale-110 duration-500 ease-in-out p-10  text-white text-2xl bg-linear-to-r  from-cyan-500 to-blue-600  px-5 py-2 hover:bg-neutral-200  hover:to-blue-700 hover:cursor-pointer select-none rounded-full  shadow-2xl w-96 -ml-5",
-        className
-      )}
+    className={cn(
+      "flex flex-row justify-center transition hover:scale-110 duration-500 ease-in-out px-5 py-2 text-white text-2xl rounded-full shadow-2xl w-96 -ml-5 hover:cursor-pointer select-none",
+      "bg-gradient-to-r from-[#B88A44] via-[#FFD699] to-[#8B5C1E] hover:brightness-110",
+      className
+     )}
       onClick={onClick}
     >
       <p className="flex">{children}</p>
@@ -37,9 +38,12 @@ export const ButtonIcon = ({
   return (
     <button
       className={cn(
-        "flex flex-row justify-center transition hover:scale-110 duration-500 ease-in-out   text-white text-2xl bg-blue-800 px-6 py-3  hover:cursor-pointer select-none rounded-xl  shadow-2xl w-fit ",
-        className
-      )}
+      "flex flex-row justify-center transition hover:scale-110 duration-500 ease-in-out px-5 py-2 text-white text-2xl rounded-full shadow-2xl w-96 -ml-5 hover:cursor-pointer select-none",
+      "bg-gradient-to-r from-[#B88A44] via-[#FFD699] to-[#8B5C1E] hover:brightness-110",
+      className
+     )}
+    
+    
       onClick={onClick}
     >
       {children}

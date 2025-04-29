@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/black-chancery');
 @import 'tailwindcss';
 
 @theme {
@@ -38,5 +39,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Black Chancery', cursive, sans-serif;
 }
