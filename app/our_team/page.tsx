@@ -46,9 +46,9 @@ const teamMembers = [
 
 export default function OurTeam() {
   return (
-    <div className="bg-[#FAEBD7] pt-2">
+    <div className="bg-[#d5bea1] pt-2">
       <Header />
-      <div className="grid grid-rows items-center justify-items-center font-mono gap-5 bg-[#FAEBD7] text-black p-5">
+      <div className="grid grid-rows items-center justify-items-center font-mono gap-5 bg-[#d5bea1] text-black p-5">
         <Image
           src="/joynestLogo.png"
           alt="Our Team Image"
