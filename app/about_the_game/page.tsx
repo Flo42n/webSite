@@ -8,9 +8,9 @@ import Image from "next/image";
 
 export default function AboutTheGame() {
   return (
-    <div className="bg-[#FAEBD7] pt-2">
+    <div className="bg-[#d5bea1] pt-2">
       <Header />
-      <div className="grid grid-rows items-center justify-items-center min-h-screen font-mono  gap-16  bg-[#FAEBD7] text-black  p-5">
+      <div className="grid grid-rows items-center justify-items-center min-h-screen font-mono  gap-16  bg-[#d5bea1] text-black  p-5">
         <Image
           className="w-4/5 shadow-2xl rounded-2xl"
           src="/logo_BTE.jpg"

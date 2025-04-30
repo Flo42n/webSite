@@ -10,9 +10,9 @@ import { redirect } from "next/navigation";
 
 export default function Home() {
   return (
-    <div className="bg-[#FAEBD7] pt-2">
+    <div className="bg-[#d5bea1] pt-2">
       <Header />
-      <div className="grid grid-rows items-center justify-items-center min-h-screen font-mono  gap-16  bg-[#FAEBD7] text-black  p-5">
+      <div className="grid grid-rows items-center justify-items-center min-h-screen font-mono  gap-16  bg-[#d5bea1] text-black  p-5">
         <p className="text-center text-3xl font-semibold -mb-4 ">
           Welcome to ...
         </p>
@@ -122,7 +122,8 @@ export default function Home() {
           <p
             className="text-4xl font-extrabold tracking-wide"
             style={{
-              background: "linear-gradient(135deg, #B88A44 0%, #FFD699 40%, #8B5C1E 60%, #B88A44 100%)",
+              background:
+                "linear-gradient(135deg, #B88A44 0%, #FFD699 40%, #8B5C1E 60%, #B88A44 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",
