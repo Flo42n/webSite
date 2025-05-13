@@ -10,10 +10,10 @@ export default function AboutTheGame() {
   return (
     <div className="bg-[#d5bea1] pt-2">
       <Header />
-      <div className="grid grid-rows items-center justify-items-center min-h-screen font-mono  gap-16  bg-[#d5bea1] text-black  p-5">
+      <div className="grid grid-rows items-center justify-items-center min-h-screen gap-16  bg-[#d5bea1] text-black  p-5">
         <Image
           className="w-4/5 shadow-2xl rounded-2xl"
-          src="/logo_BTE.jpg"
+          src="/BTElogo.jpeg"
           alt="Next.js logo"
           width={600}
           height={600}
@@ -26,7 +26,7 @@ export default function AboutTheGame() {
       </div>
       <hr className="border border-black w-3/5 mx-auto my-7" />
 
-      <div className="flex flex-col font-mono gap-5 px-58 text-black">
+      <div className="flex flex-col gap-5 px-58 text-black">
         <h2 className="text-2xl font-semibold">The Game</h2>
         <p className="text-black mt-2">
           ”Back to EPITA” is an innovative game that aims to offer an immersive
@@ -54,6 +54,17 @@ export default function AboutTheGame() {
           Download our most recent report
         </h2>
         <a href="/files/rapport2.pdf" download="rapport2">
+          <Button>Download Report</Button>
+        </a>
+      </div>
+
+      <hr className="border border-black w-3/5 mx-auto my-7" />
+
+      <div className="flex flex-col items-center my-8">
+        <h2 className="text-2xl font-bold mb-4 text-center text-black">
+          Installation guide
+        </h2>
+        <a href="/files/rapport2.pdf" download="manueldinstallation">
           <Button>Download Report</Button>
         </a>
       </div>
