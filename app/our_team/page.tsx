@@ -48,7 +48,7 @@ export default function OurTeam() {
   return (
     <div className="bg-[#d5bea1] pt-2">
       <Header />
-      <div className="grid grid-rows items-center justify-items-center font-mono gap-5 bg-[#d5bea1] text-black p-5">
+      <div className="grid grid-rows items-center justify-items-center  gap-5 bg-[#d5bea1] text-black p-5">
         <Image
           src="/joynestLogo.png"
           alt="Our Team Image"
@@ -64,17 +64,18 @@ export default function OurTeam() {
       <section className="max-w-6xl mx-auto p-8">
         <hr className="border border-black w-3/5 mx-auto my-7" />
         <br></br>
-        <h2 className="text-4xl font-bold text-gray-900 font-mono">
+        <h2 className="text-4xl font-bold text-gray-900">
           About the team
         </h2>
-        <p className="text-black mt-2 mb-6 font-mono">
+        <p className="text-xl text-black mt-3 mb-6">
           We’re a dynamic group of individuals who are passionate about what we
           do and dedicated to delivering the best results for our clients.
         </p>
         <br />
         <div className="grid md:grid-cols-2 gap-6 ">
           {teamMembers.map((member, index) => (
-            <Card key={index} className="flex items-center p-4 gap-4 shadow-md">
+            <Card key={index} className="flex items-center p-4 gap-4 shadow-md" 
+              style ={{ fontFamily: "Arial, sans-serif" }}>
               <img
                 src={member.image}
                 alt={member.name}
