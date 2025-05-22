@@ -19,17 +19,45 @@ export default function AboutTheGame() {
           height={600}
         />
         <p className="text-center text-2xl pt-5">
-          Embark on a journey through the mesmerizing universe of Back To EPITA,
+          Embark on a journey through the mesmerizing universe of Back Two EPITA,
           <br /> where every twist and turn unveils a new story waiting to be
           told.
-        </p>{" "}
+        </p>
+
+        <hr className="border border-black w-3/5 mx-auto my-7" />
+
+        <p className="text-center text-3xl">
+          Here's a quick overview of the game!
+        </p>
+
+        <video
+          className="w-4/5 rounded-2xl shadow-xl"
+          controls
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/files/Egypte_enigma_defense.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div className="flex flex-col items-center my-8">
+        <h2 className="text-2xl font-bold mb-4 text-center text-black">
+          Want to play?
+        </h2>
+        <a href="https://github.com/Alow01/BackTwoEpita/releases/tag/v1">
+          <Button>Download our game!</Button>
+        </a>
+
       </div>
       <hr className="border border-black w-3/5 mx-auto my-7" />
 
-      <div className="flex flex-col gap-5 px-58 text-black">
+      <div className="flex flex-col gap-5 px-68 text-black">
         <h2 className="text-2xl font-semibold">The Game</h2>
-        <p className="text-black mt-2">
-          ”Back to EPITA” is an innovative game that aims to offer an immersive
+        <p className="text-xl mt-2">
+          ”Back two EPITA” is an innovative game that aims to offer an immersive
           and collaborative experience. This idea emerged after a long period of
           reflection during which we considered several game mechanics. Our game
           is exclusively made for two players, with many puzzles and where mutul
@@ -43,8 +71,19 @@ export default function AboutTheGame() {
           workshop of EPITA Lyon. Here, they will disvover a mysterious object
           that they will try to activate, starting a trip in time. In these
           levels, the players will have to collaborate efficiently to overcome
-          the tasks that will come. `a eux.
+          the tasks that will come.
         </p>
+      </div>
+
+      <hr className="border border-black w-3/5 mx-auto my-7" />
+
+      <div className="flex flex-col items-center my-8">
+        <h2 className="text-2xl font-bold mb-4 text-center text-black">
+          How do I play the game?
+        </h2>
+        <a href="/files/rapport2.pdf" download="manueldinstallation">
+          <Button>Installation guide</Button>
+        </a>
       </div>
 
       <hr className="border border-black w-3/5 mx-auto my-7" />
@@ -54,17 +93,6 @@ export default function AboutTheGame() {
           Download our most recent report
         </h2>
         <a href="/files/rapport2.pdf" download="rapport2">
-          <Button>Download Report</Button>
-        </a>
-      </div>
-
-      <hr className="border border-black w-3/5 mx-auto my-7" />
-
-      <div className="flex flex-col items-center my-8">
-        <h2 className="text-2xl font-bold mb-4 text-center text-black">
-          Installation guide
-        </h2>
-        <a href="/files/rapport2.pdf" download="manueldinstallation">
           <Button>Download Report</Button>
         </a>
       </div>
