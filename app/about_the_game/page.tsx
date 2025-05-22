@@ -26,21 +26,6 @@ export default function AboutTheGame() {
 
         <hr className="border border-black w-3/5 mx-auto my-7" />
 
-        <p className="text-center text-3xl">
-          Here's a quick overview of the game!
-        </p>
-
-        <video
-          className="w-4/5 rounded-2xl shadow-xl"
-          controls
-          autoPlay
-          loop
-          muted
-          playsInline
-        >
-          <source src="/files/Egypte_enigma_defense.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
       </div>
 
       <div className="flex flex-col items-center my-8">
