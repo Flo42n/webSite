@@ -9,6 +9,11 @@ import { Footer } from "./components/Footer";
 import { redirect } from "next/navigation";
 import Head from "next/head";
 
+export const metadata = {
+  title: "Back Two EPITA – Home",
+  description: "Back Two EPITA: A cooperative puzzle adventure.",
+};
+
 export default function Home() {
   return (
   <>

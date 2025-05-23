@@ -7,6 +7,11 @@ import { Button } from "../components/Button";
 import Image from "next/image";
 import Head from "next/head";
 
+export const metadata = {
+  title: "Back Two EPITA – About",
+  description: "Back Two EPITA: A cooperative puzzle adventure.",
+};
+
 export default function AboutTheGame() {
   return (
     <>
