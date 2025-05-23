@@ -45,10 +45,6 @@ const teamMembers = [
   },
 ];
 
-export const metadata = {
-  title: "Back Two EPITA – Our team",
-  description: "Back Two EPITA: A cooperative puzzle adventure.",
-};
 
 
 export default function OurTeam() {

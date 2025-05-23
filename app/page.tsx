@@ -9,21 +9,17 @@ import { Footer } from "./components/Footer";
 import { redirect } from "next/navigation";
 import Head from "next/head";
 
-export const metadata = {
-  title: "Back Two EPITA – Home",
-  description: "Back Two EPITA: A cooperative puzzle adventure.",
-};
 
 export default function Home() {
   return (
   <>
-        <Head>
-          <title>Back Two EPITA – Home</title>
-          <meta name="description" content="Back Two EPITA: A co-op puzzle adventure through time." />
-        </Head>
-        <div className="bg-[#d5bea1] pt-2">
-          <Header />
-          <div className="grid grid-rows items-center justify-items-center min-h-screen  gap-16  bg-[#d5bea1] text-black  p-5">
+      <Head>
+        <title>Back Two EPITA – Home</title>
+        <meta name="description" content="Back Two EPITA: A co-op puzzle adventure through time." />
+      </Head>
+      <div className="bg-[#d5bea1] pt-2">
+        <Header />
+        <div className="grid grid-rows items-center justify-items-center min-h-screen  gap-16  bg-[#d5bea1] text-black  p-5">
             <p className="text-center text-3xl font-semibold -mb-4 ">
               Welcome to ...
             </p>
